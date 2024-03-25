@@ -1,4 +1,4 @@
-# 20240320_Salary_Data
+# 20240327_Salary_Data
 
 Link : https://dacon.io/competitions/official/236226
 
@@ -9,7 +9,7 @@ Link : https://dacon.io/competitions/official/236226
 
 ## Dataset
 
-한 세션에서 발생한 다양한 정보를 기록한 웹 로그
+개인의 소득 수준과 연관된 컬럼들
 
 train.csv
 ┣ ID : 학습 데이터 고유 ID
@@ -19,21 +19,25 @@ train.csv
 ┣ Employment_Status : 고용 상태
 ┣ Working_Week (Yearly) : 연간 근무 기간(주단위)
 ┣ Industry_Status : 산업군
-┣ Occupation_Status : 근로 형태
+┣ Occupation_Status : 직업군
 ┣ Race : 인종
-┣ Hispanic_Origin : 이탈 여부 (0: 이탈하지 않음, 1: 이탈함)
-┣ transaction : 세션 내에서 발생의 거래의 수
-┣ transaction_revenue : 총 거래 수익
-┣ continent : 세션이 발생한 대륙
-┣ subcontinent : 세션이 발생한 하위 대륙
-┣ country : 세션이 발생한 국가
-┣ traffic_source : 트래픽이 발생한 소스
-┣ traffic_medium : 트래픽 소스의 매체
-┣ keyword : 트래픽 소스의 키워드, 일반적으로 traffic_medium이 organic, cpc인 경우에 설정
-┗ referral_path : traffic_medium이 referral인 경우 설정되는 경로 test.csv sample_submission.csv
+┣ Hispanic_Origin : 히스패닉 출신지
+┣ Martial_Status : 결혼 상태
+┣ Household_Status : 가정 상태
+┣ Household_summary : Household_Status 요약 버전
+┣ Citizenship : 내국인 여부
+┣ Birth_Country : 출생국
+┣ Birth_Country (Father) : 출생국(부)
+┣ Birth_Country (Mother) : 출생국(모)
+┣ Tax_Status : 맞벌이 & 65세 이상 여부
+┣ Gains : 재산 증가
+┣ Losses : 재산 감소
+┣ Dividends : 배당금
+┣ Income_Status : 소득 수준(중간값 이상 여부)
+┗ Income : 1시간 단위 소득(TARGET)
 
 평가 방식
 RMSE score
 
 진행 기간
-2024.03.06 ~ 2024.03.13
+2024.03.20 ~ 2024.03.27
