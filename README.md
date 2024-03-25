@@ -1,25 +1,27 @@
 # 20240320_Salary_Data
----
-Link : ()[https://dacon.io/competitions/official/236226]
+
+Link : https://dacon.io/competitions/official/236226
 
 ## Goals
----
-웹 로그를 기반으로 한 조회수 예측
-public score 2.9238 이상
 
-Dataset
+개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
+수상권 노리기
+
+## Dataset
+
 한 세션에서 발생한 다양한 정보를 기록한 웹 로그
+
 train.csv
-┣ sessionID : 세션 ID
-┣ userID : 사용자 ID
-┣ TARGET : 세션에서 발생한 총 조회수
-┣ browser : 사용된 브라우저
-┣ OS : 사용된 기기의 운영체제
-┣ device : 사용된 기기
-┣ new : 첫 방문 여부 (0: 첫 방문 아님, 1: 첫 방문)
-┣ quality : 세션의 질 (거래 성사를 기준으로 측정된 값, 범위: 1~100)
-┣ duration : 총 세션 시간 (단위: 초)
-┣ bounced : 이탈 여부 (0: 이탈하지 않음, 1: 이탈함)
+┣ ID : 학습 데이터 고유 ID
+┣ Age : 나이
+┣ Gender : 성별
+┣ Education_Status : 교육 수준
+┣ Employment_Status : 고용 상태
+┣ Working_Week (Yearly) : 연간 근무 기간(주단위)
+┣ Industry_Status : 산업군
+┣ Occupation_Status : 근로 형태
+┣ Race : 인종
+┣ Hispanic_Origin : 이탈 여부 (0: 이탈하지 않음, 1: 이탈함)
 ┣ transaction : 세션 내에서 발생의 거래의 수
 ┣ transaction_revenue : 총 거래 수익
 ┣ continent : 세션이 발생한 대륙
