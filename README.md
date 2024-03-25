@@ -10,11 +10,8 @@ Link : https://dacon.io/competitions/official/236226
 개인의 소득 수준과 연관된 컬럼들
 train.csv
 ┣ ID : 학습 데이터 고유 ID
-
 ┣ Age : 나이
-
 ┣ Gender : 성별
-
 ┣ Education_Status : 교육 수준
 
 ┣ Employment_Status : 고용 상태
