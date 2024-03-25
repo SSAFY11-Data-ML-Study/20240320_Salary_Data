@@ -3,14 +3,11 @@
 Link : https://dacon.io/competitions/official/236226
 
 ## Goals
-
 개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
 수상권 노리기
 
 ## Dataset
-
 개인의 소득 수준과 연관된 컬럼들
-
 train.csv
 ┣ ID : 학습 데이터 고유 ID
 ┣ Age : 나이
@@ -35,8 +32,10 @@ train.csv
 ┣ Dividends : 배당금
 ┣ Income_Status : 소득 수준(중간값 이상 여부)
 ┗ Income : 1시간 단위 소득(TARGET)
+test.csv
+sample_submission.csv
 
-평가 방식
+## 평가 방식
 RMSE score
 
 진행 기간
