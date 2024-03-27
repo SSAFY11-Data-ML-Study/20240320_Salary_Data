@@ -3,8 +3,8 @@
 Link : https://dacon.io/competitions/official/236226
 
 ## Goals
-개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
-수상권 노리기
+* 개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
+* 수상권 노리기
 
 ## Dataset
 개인의 소득 수준과 연관된 컬럼들 <br>
