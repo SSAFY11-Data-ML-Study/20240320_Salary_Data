@@ -1,6 +1,6 @@
 # 20240327_Salary_Data
 
-Link : https://dacon.io/competitions/official/236226
+Link : https://dacon.io/competitions/official/236230
 
 ## Goals
 * 개인 특성 데이터를 활용하여 개인 소득 수준을 예측하는 AI 모델 개발
